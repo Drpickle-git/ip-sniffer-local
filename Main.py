@@ -13,8 +13,8 @@ def scan_network(target_ip, target_mac):
     return devices
 
 if __name__ == "__main__":
-    target_ip = "192.168.1.1/24"  # Plage d'adresses IP à scanner (généralement x.x.x.1/24)
-    target_mac = "ff:ff:ff:ff:ff:ff"  # Adresse MAC de diffusion (broadcast)
+    target_ip = "192.168.1.1/24" 
+    target_mac = "ff:ff:ff:ff:ff:ff" 
 
     devices = scan_network(target_ip, target_mac)
 
